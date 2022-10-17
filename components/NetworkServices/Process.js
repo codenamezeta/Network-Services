@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Process extends Component {
   render() {
     return (
-      <section className='ux-research-process ptb-100'>
+      <section className='ux-research-process ptb-100 bg-f9f9f9'>
         <div className='container'>
           <div className='row align-items-center'>
             <div className='col-lg-6 col-md-12'>

@@ -19,20 +19,20 @@ class Index extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar />
-        <Banner />
+        {/* <Navbar /> */}
+        {/* <Banner /> */}
+        <Cta />
+        <Funfact />
         <Partner />
-        <About />
-        <Features />
+        <Contact />
         <Process />
+        <About />
         <CloudReadiness />
+        {/* <Features /> */}
         <Testimonials />
         {/* <Pricing /> */}
         {/* <Blog /> */}
-        <Cta />
-        <Funfact />
-        <Contact />
-        {/* <Subscribe /> */}
+        <Subscribe />
         <Footer />
       </React.Fragment>
     )

@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import ModalVideo from 'react-modal-video'
+import { BsFillPlayFill, BsCloudFog2Fill } from 'react-icons/bs'
+import { MdOutlineCable, MdPhoneInTalk } from 'react-icons/md'
 
 class Cta extends Component {
   state = {
@@ -14,16 +16,21 @@ class Cta extends Component {
     return (
       <React.Fragment>
         <section
-          className='cta-area ptb-100 jarallax pb-0'
+          className='cta-area jarallax pb-0'
           data-jarallax='{"speed": 0.2}'
+          style={{ paddingTop: '250px' }}
         >
           <div className='container'>
             <div className='cta-content'>
-              <h2>We always try to quality work</h2>
-              <p>
-                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan lacus vel facilisis.
-              </p>
+              <h1
+                className='image-overlay'
+                style={{ fontSize: '6em', fontWeight: '700' }}
+              >
+                Network Services
+              </h1>
+              <h3 className='image-overlay'>
+                Technology Consulting Firm For Your Business
+              </h3>
 
               <div
                 className='popup-youtube video-btn'
@@ -32,7 +39,8 @@ class Cta extends Component {
                   this.openModal()
                 }}
               >
-                <i className='fas fa-play'></i>
+                <BsFillPlayFill />
+                {/* <i className='fas fa-play'></i> */}
               </div>
             </div>
 
@@ -40,36 +48,42 @@ class Cta extends Component {
               <div className='row'>
                 <div className='col-lg-4 col-md-6'>
                   <div className='single-cta-box'>
-                    <i className='fas fa-layer-group'></i>
-                    <h3>Modern Design</h3>
+                    <BsCloudFog2Fill size='2.5em' />
+
+                    <h3>Cloud Migration</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida.
+                      Now, more than ever, enterprises must be able to adapt
+                      quickly to change. Cloud solutions offer the flexibility
+                      that you need to ramp up productivity for your staff and
+                      your clients through this time of change.
                     </p>
                   </div>
                 </div>
 
                 <div className='col-lg-4 col-md-6'>
                   <div className='single-cta-box'>
-                    <i className='fas fa-fighter-jet'></i>
-                    <h3>Fast Loading</h3>
+                    <MdOutlineCable size='2.5em' />
+
+                    <h3>Internet Access Circuts</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida.
+                      We offer private, secure, and redundant Internet Access
+                      Circuts for a wide variety of business' needs. With over
+                      30 years of experience in circuit quoting, business
+                      communications systems acquisition, and support.
                     </p>
                   </div>
                 </div>
 
                 <div className='col-lg-4 col-md-6 offset-lg-0 offset-md-3'>
                   <div className='single-cta-box'>
-                    <i className='fas fa-broom'></i>
-                    <h3>Clean Code</h3>
+                    <MdPhoneInTalk size='2.5em' />
+                    <h3>Unified Phone Systems</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida.
+                      Our Unified Communications platforms are reliable,
+                      scalable, and flexible with support for SMS, video, file
+                      sharing, mobility, and CRM integration. Our platforms can
+                      also leverage A.I. to improve workflows and diagnose
+                      issues.
                     </p>
                   </div>
                 </div>

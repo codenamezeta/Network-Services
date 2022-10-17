@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
 const OwlCarousel = dynamic(import('react-owl-carousel3'))
+import { GrNext, GrPrevious } from 'react-icons/gr'
 
 const options = {
   loop: true,
@@ -10,10 +11,7 @@ const options = {
   autoplayHoverPause: true,
   autoplay: true,
   margin: 30,
-  navText: [
-    "<i class='fas fa-angle-left'></i>",
-    "<i class='fas fa-angle-right'></i>",
-  ],
+  navText: [<GrNext />, <GrPrevious />],
   responsive: {
     0: {
       items: 2,

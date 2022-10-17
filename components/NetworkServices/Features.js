@@ -19,11 +19,11 @@ class Features extends Component {
                 <div className='icon bg1'>
                   <i className='fa-solid fa-0'></i>
                 </div>
-                <h3>App Development</h3>
+                <h3>No Cloud Readiness</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida.
+                  The company does not take advantage of the cloud. All systems
+                  are traditional. There are no plans for migrating to the
+                  cloud.
                 </p>
               </div>
             </div>
@@ -31,13 +31,13 @@ class Features extends Component {
             <div className='col-lg-4 col-md-6'>
               <div className='single-features'>
                 <div className='icon bg2'>
-                  <i className='fas fa-cubes'></i>
+                  <i className='fa-solid fa-1'></i>
                 </div>
-                <h3>Digital Branding</h3>
+                <h3>Initial Readiness</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida.
+                  The suitability of existing software and services for the
+                  cloud has been mapped. Understanding of cloud services, some
+                  cloud services in use. No clear plans.
                 </p>
               </div>
             </div>
@@ -45,13 +45,13 @@ class Features extends Component {
             <div className='col-lg-4 col-md-6'>
               <div className='single-features'>
                 <div className='icon bg3'>
-                  <i className='fas fa-cloud'></i>
+                  <i className='fa-solid fa-2'></i>
                 </div>
-                <h3>Cloud Storage</h3>
+                <h3>Opportunistic</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida.
+                  The process for the introduction of cloud services has been
+                  defined and is repeatable. The capacity for cloud migration
+                  exists. However, the approach is not systematic.
                 </p>
               </div>
             </div>
@@ -59,13 +59,13 @@ class Features extends Component {
             <div className='col-lg-4 col-md-6'>
               <div className='single-features'>
                 <div className='icon bg4'>
-                  <i className='fas fa-cogs'></i>
+                  <i className='fa-solid fa-3'></i>
                 </div>
-                <h3>Customization</h3>
+                <h3>Systematic</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida.
+                  Cloud service utilization is automated with tools and
+                  integrated. Activities are systematic and can be monitored.
+                  Documentation exists.
                 </p>
               </div>
             </div>
@@ -73,13 +73,14 @@ class Features extends Component {
             <div className='col-lg-4 col-md-6'>
               <div className='single-features'>
                 <div className='icon bg5'>
-                  <i className='fas fa-pencil-ruler'></i>
+                  <i className='fa-solid fa-4'></i>
                 </div>
-                <h3>UX Planning</h3>
+                <h3>Measurable</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida.
+                  Cloud applications are in everyday use extensively in the
+                  organization Private, public, hybrid platforms. The cloud
+                  management mode is followed, with utilization measured and
+                  continuously developed.
                 </p>
               </div>
             </div>
@@ -87,13 +88,14 @@ class Features extends Component {
             <div className='col-lg-4 col-md-6'>
               <div className='single-features'>
                 <div className='icon bg6'>
-                  <i className='fas fa-headset'></i>
+                  <i className='fa-solid fa-5'></i>
                 </div>
-                <h3>Customer Support</h3>
+                <h3>Optimized</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida.
+                  Have an interoperable and open cloud that is being developed
+                  and optimized proactively through meters and using data. It is
+                  possible to manage workloads flexibly on different service
+                  platforms.
                 </p>
               </div>
             </div>

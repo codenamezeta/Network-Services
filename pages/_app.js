@@ -1,6 +1,6 @@
 import '../public/css/bootstrap.min.css'
 import '../public/css/animate.min.css'
-import '../public/css/fontawesome.min.css'
+// import '../public/css/fontawesome.min.css'
 // import '../public/css/fontawesome6.css'
 import '../node_modules/react-modal-video/css/modal-video.min.css'
 import 'react-accessible-accordion/dist/fancy-example.css'
@@ -26,7 +26,7 @@ export default class MyApp extends App {
             name='viewport'
             content='width=device-width, initial-scale=1, shrink-to-fit=no'
           />
-          <title>Genial - React Next Multi-Niche Landing Templates</title>
+          <title>Network Services</title>
         </Head>
 
         <Preloader>

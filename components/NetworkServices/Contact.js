@@ -3,17 +3,18 @@ import React, { Component } from 'react'
 class Contact extends Component {
   render() {
     return (
-      <section id='contact' className='contact-area ptb-100 bg-f9f9f9'>
+      <section id='contact' className='contact-area ptb-100'>
         <div className='container'>
           <div className='section-title'>
             <h2>Contact Us</h2>
             <p>
-              Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-              maecenas accumsan lacus vel facilisis.
+              Reach out to us and let us know how we can help you. We have been
+              involved in circuit quoting, business communications systems
+              acquisition, and support for over 30 years.
             </p>
           </div>
 
-          <div className='row align-items-center'>
+          <div className='row'>
             <div className='col-lg-8 col-md-12'>
               <form id='contactForm'>
                 <div className='row'>
@@ -134,13 +135,8 @@ class Contact extends Component {
 
             <div className='col-lg-4 col-md-12'>
               <div className='contact-info-box'>
+                <h3>Network Services</h3>
                 <ul>
-                  <li>
-                    <i className='fas fa-map-marker-alt'></i>
-                    <span>Based In:</span>
-                    Danville, California
-                  </li>
-
                   <li>
                     <i className='fas fa-envelope'></i>
                     <span>Email:</span>
@@ -154,7 +150,7 @@ class Contact extends Component {
                     <i className='fas fa-phone'></i>
                     <span>Phone:</span>
 
-                    <a href='tel:9257668688'>(925) 766-8688</a>
+                    <a href='tel:+19257668688'>(925) 766-8688</a>
                   </li>
 
                   <li>
@@ -162,6 +158,11 @@ class Contact extends Component {
                     <span>Website:</span>
 
                     <a href='#'>www.networksrvs.com</a>
+                  </li>
+                  <li>
+                    <i className='fas fa-map-marker-alt'></i>
+                    <span>Based In:</span>
+                    Danville, California
                   </li>
                 </ul>
               </div>

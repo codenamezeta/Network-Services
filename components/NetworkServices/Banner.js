@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
+// import { BsFillPlayFill } from 'react-icons/bs'
 import ModalVideo from 'react-modal-video'
 
 class Banner extends Component {
@@ -23,7 +24,7 @@ class Banner extends Component {
                   <p>Cloud Technology Consulting Firm for your Business.</p>
 
                   <div className='btn-box'>
-                    <Link href='/agency/#'>
+                    <Link href='/#contact'>
                       <a className='btn btn-primary'>Get Started</a>
                     </Link>
 
@@ -34,7 +35,7 @@ class Banner extends Component {
                         this.openModal()
                       }}
                     >
-                      <i className='fab fa-google-play'></i>
+                      <i className='fa-solid fa-play'></i>
                       Watch our video
                     </div>
                   </div>

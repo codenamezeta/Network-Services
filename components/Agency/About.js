@@ -27,15 +27,15 @@ class About extends Component {
                     <div className='single-inner-content'>
                       <div className='title'>
                         <div className='icon'>
-                          <i className='fas fa-desktop'></i>
+                          <i className='fa-solid fa-desktop'></i>
                         </div>
-
-                        <h3>Internet Access Circuits</h3>
+                        <h3>The Cost of Cloud</h3>
                       </div>
 
                       <p>
-                        Quis ipsum suspendisse ultrices gravida. Risus commodo
-                        viverra maecenas accumsan facilisis.
+                        Using efficient cloud operating models, powered by
+                        analytics, automation and AI, allows businesses to save
+                        about 30-50% in ongoing support costs.
                       </p>
                     </div>
                   </div>
