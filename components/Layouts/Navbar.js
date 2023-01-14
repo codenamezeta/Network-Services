@@ -64,7 +64,7 @@ class Navbar extends Component {
           className='navbar navbar-expand-lg navbar-style-one navbar-light bg-light'
         >
           <div className='container'>
-            <Link href='/agency'>
+            <Link legacyBehavior href='/agency'>
               <a className='navbar-brand'>
                 <img src='/images/white-logo.png' alt='logo' />
                 <img src='/images/black-logo.png' alt='logo' />

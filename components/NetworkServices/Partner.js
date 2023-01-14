@@ -49,7 +49,7 @@ class Partner extends Component {
               >
                 <div className='col-lg-12 col-md-12'>
                   <div className='partner-item'>
-                    <Link href='#'>
+                    <Link legacyBehavior href='#'>
                       <a>
                         <img src='/images/agency-partner1.png' alt='logo' />
                       </a>
@@ -59,7 +59,7 @@ class Partner extends Component {
 
                 <div className='col-lg-12 col-md-12'>
                   <div className='partner-item'>
-                    <Link href='#'>
+                    <Link legacyBehavior href='#'>
                       <a>
                         <img src='/images/agency-partner2.png' alt='logo' />
                       </a>
@@ -69,7 +69,7 @@ class Partner extends Component {
 
                 <div className='col-lg-12 col-md-12'>
                   <div className='partner-item'>
-                    <Link href='#'>
+                    <Link legacyBehavior href='#'>
                       <a>
                         <img src='/images/agency-partner3.png' alt='logo' />
                       </a>
@@ -79,7 +79,7 @@ class Partner extends Component {
 
                 <div className='col-lg-12 col-md-12'>
                   <div className='partner-item'>
-                    <Link href='#'>
+                    <Link legacyBehavior href='#'>
                       <a>
                         <img src='/images/agency-partner4.png' alt='logo' />
                       </a>
@@ -89,7 +89,7 @@ class Partner extends Component {
 
                 <div className='col-lg-12 col-md-12'>
                   <div className='partner-item'>
-                    <Link href='#'>
+                    <Link legacyBehavior href='#'>
                       <a>
                         <img src='/images/agency-partner5.png' alt='logo' />
                       </a>
@@ -99,7 +99,7 @@ class Partner extends Component {
 
                 <div className='col-lg-12 col-md-12'>
                   <div className='partner-item'>
-                    <Link href='#'>
+                    <Link legacyBehavior href='#'>
                       <a>
                         <img src='/images/agency-partner6.png' alt='logo' />
                       </a>
