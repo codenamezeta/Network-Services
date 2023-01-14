@@ -11,7 +11,7 @@ class Footer extends Component {
             <div className='col-lg-4 col-sm-6'>
               <div className='single-footer-widget'>
                 <div className='logo'>
-                  <Link href='/'>
+                  <Link legacyBehavior href='/'>
                     <a>
                       <img src='/images/black-logo.png' alt='logo' />
                     </a>
@@ -21,17 +21,17 @@ class Footer extends Component {
                 <ul className='contact-info'>
                   <li>1828 Johns Drive Glenview, IL 60025</li>
                   <li>
-                    <Link href='tel:2242288475'>
+                    <Link legacyBehavior href='tel:2242288475'>
                       <a>(224) 228-8475</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='mailto:support@genial.com'>
+                    <Link legacyBehavior href='mailto:support@genial.com'>
                       <a>support@genial.com</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a>www.genial.com</a>
                     </Link>
                   </li>
@@ -45,27 +45,27 @@ class Footer extends Component {
 
                 <ul className='list'>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a>Home</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a>Features</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a>Screenshots</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a>Pricing</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a>News</a>
                     </Link>
                   </li>
@@ -79,27 +79,27 @@ class Footer extends Component {
 
                 <ul className='list'>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a>Quick Support</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a>Privacy Policy</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a>Copyright</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a>Terms & Conditions</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a>Testimonials</a>
                     </Link>
                   </li>
@@ -113,27 +113,27 @@ class Footer extends Component {
 
                 <ul className='list'>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a>Managed Account</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a>Create Account</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a>Download Software</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a>Support Center</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a>Account Security</a>
                     </Link>
                   </li>
@@ -157,28 +157,28 @@ class Footer extends Component {
               <div className='col-lg-5 col-md-5'>
                 <ul>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a target='_blank'>
                         <i className='fab fa-facebook-f'></i>
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a target='_blank'>
                         <i className='fab fa-twitter'></i>
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a target='_blank'>
                         <i className='fab fa-instagram'></i>
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/#'>
+                    <Link legacyBehavior href='/#'>
                       <a target='_blank'>
                         <i className='fab fa-linkedin-in'></i>
                       </a>

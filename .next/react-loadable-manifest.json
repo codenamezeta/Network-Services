@@ -1,14 +1,14 @@
 {
-  "./dev/noop": [
-    {
-      "id": "./node_modules/next/dist/client/dev/noop.js",
-      "file": "static/chunks/0.js"
-    }
-  ],
-  "react-owl-carousel3": [
-    {
-      "id": "./node_modules/react-owl-carousel3/lib/OwlCarousel.js",
-      "file": "static/chunks/1.js"
-    }
-  ]
+  "../components/NetworkServices/Partner.js -> react-owl-carousel3": {
+    "id": "../components/NetworkServices/Partner.js -> react-owl-carousel3",
+    "files": [
+      "static/chunks/node_modules_react-owl-carousel3_lib_OwlCarousel_js.js"
+    ]
+  },
+  "../components/NetworkServices/Testimonials.js -> react-owl-carousel3": {
+    "id": "../components/NetworkServices/Testimonials.js -> react-owl-carousel3",
+    "files": [
+      "static/chunks/node_modules_react-owl-carousel3_lib_OwlCarousel_js.js"
+    ]
+  }
 }

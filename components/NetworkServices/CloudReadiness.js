@@ -1,4 +1,12 @@
 import React, { Component } from 'react'
+import Image from 'next/image'
+import img1 from '../../public/images/vectors/server-01.jpg'
+import img2 from '../../public/images/vectors/server-02.jpg'
+import img3 from '../../public/images/vectors/server-03.jpg'
+import img4 from '../../public/images/vectors/server-04.jpg'
+import img5 from '../../public/images/vectors/server-05.jpg'
+import img6 from '../../public/images/vectors/server-06.jpg'
+// import Level0 from './CloudReadinessIllustration'
 
 class CloudReadiness extends Component {
   openTabSection = (evt, tabName) => {
@@ -124,10 +132,11 @@ class CloudReadiness extends Component {
                         </ul>
                       </div>
                       <div className='col-sm-8'>
-                        <img
+                        <Image src={img3} width={750} height={500} />
+                        {/* <img
                           src='/images/cloud-readiness-images/level-0.png'
                           alt='new'
-                        />
+                        /> */}
                       </div>
                     </div>
                   </div>
@@ -161,10 +170,11 @@ class CloudReadiness extends Component {
                         </ul>
                       </div>
                       <div className='col-sm-8'>
-                        <img
+                        <Image src={img2} width={750} height={500} />
+                        {/* <img
                           src='/images/cloud-readiness-images/level-0.png'
                           alt='new'
-                        />
+                        /> */}
                       </div>
                     </div>
                   </div>
@@ -201,10 +211,7 @@ class CloudReadiness extends Component {
                         </ul>
                       </div>
                       <div className='col-sm-8'>
-                        <img
-                          src='/images/cloud-readiness-images/level-0.png'
-                          alt='new'
-                        />
+                        <Image src={img5} width={750} height={500} />
                       </div>
                     </div>
                   </div>
@@ -240,10 +247,7 @@ class CloudReadiness extends Component {
                         </ul>
                       </div>
                       <div className='col-sm-8'>
-                        <img
-                          src='/images/cloud-readiness-images/level-0.png'
-                          alt='new'
-                        />
+                        <Image src={img1} width={750} height={500} />
                       </div>
                     </div>
                   </div>
@@ -276,10 +280,7 @@ class CloudReadiness extends Component {
                         </ul>
                       </div>
                       <div className='col-sm-8'>
-                        <img
-                          src='/images/cloud-readiness-images/level-0.png'
-                          alt='new'
-                        />
+                        <Image src={img4} width={750} height={500} />
                       </div>
                     </div>
                   </div>
@@ -312,10 +313,7 @@ class CloudReadiness extends Component {
                         </ul>
                       </div>
                       <div className='col-sm-8'>
-                        <img
-                          src='/images/cloud-readiness-images/level-0.png'
-                          alt='new'
-                        />
+                        <Image src={img6} width={750} height={500} />
                       </div>
                     </div>
                   </div>

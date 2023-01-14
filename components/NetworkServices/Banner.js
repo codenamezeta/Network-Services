@@ -24,7 +24,7 @@ class Banner extends Component {
                   <p>Cloud Technology Consulting Firm for your Business.</p>
 
                   <div className='btn-box'>
-                    <Link href='/#contact'>
+                    <Link legacyBehavior href='/#contact'>
                       <a className='btn btn-primary'>Get Started</a>
                     </Link>
 
