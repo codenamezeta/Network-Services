@@ -30,12 +30,12 @@ class Funfact extends Component {
                   >
                     <CountUp
                       start={0}
-                      end={this.state.didViewCountUp ? 555 : 0}
-                      duration={3}
+                      end={this.state.didViewCountUp ? 9 : 0}
+                      duration={2}
                     />
                   </VisibilitySensor>
                 </h3>
-                <p>Completed Projects</p>
+                <p>Years in Business</p>
               </div>
             </div>
 
@@ -51,28 +51,7 @@ class Funfact extends Component {
                   >
                     <CountUp
                       start={0}
-                      end={this.state.didViewCountUp ? 250048 : 0}
-                      duration={3}
-                    />
-                  </VisibilitySensor>
-                </h3>
-                <p>Lines Code</p>
-              </div>
-            </div>
-
-            <div className='col-lg-3 col-md-3'>
-              <div className='single-funfact'>
-                <h3 className='odometer'>
-                  <VisibilitySensor
-                    onChange={this.onVisibilityChange}
-                    offset={{
-                      top: 10,
-                    }}
-                    delayedCall
-                  >
-                    <CountUp
-                      start={0}
-                      end={this.state.didViewCountUp ? 250 : 0}
+                      end={this.state.didViewCountUp ? 24 : 0}
                       duration={3}
                     />
                   </VisibilitySensor>
@@ -93,12 +72,33 @@ class Funfact extends Component {
                   >
                     <CountUp
                       start={0}
-                      end={this.state.didViewCountUp ? 2045 : 0}
-                      duration={3}
+                      end={this.state.didViewCountUp ? 250 : 0}
+                      duration={4}
                     />
                   </VisibilitySensor>
                 </h3>
                 <p>Happy Clients</p>
+              </div>
+            </div>
+
+            <div className='col-lg-3 col-md-3'>
+              <div className='single-funfact'>
+                <h3 className='odometer'>
+                  <VisibilitySensor
+                    onChange={this.onVisibilityChange}
+                    offset={{
+                      top: 10,
+                    }}
+                    delayedCall
+                  >
+                    <CountUp
+                      start={0}
+                      end={this.state.didViewCountUp ? 2045 : 0}
+                      duration={5}
+                    />
+                  </VisibilitySensor>
+                </h3>
+                <p>Projects Completed</p>
               </div>
             </div>
           </div>
