@@ -22,17 +22,18 @@ class Index extends Component {
         {/* <Navbar /> */}
         {/* <Banner /> */}
         <Cta />
-        <Funfact />
-        <Partner />
-        <Contact />
+        {/* <Funfact /> */}
+        {/* <Partner /> */}
+
         <Process />
         <About />
         <CloudReadiness />
         {/* <Features /> */}
-        <Testimonials />
+        {/* <Testimonials /> */}
         {/* <Pricing /> */}
         {/* <Blog /> */}
-        <Subscribe />
+        {/* <Subscribe /> */}
+        <Contact />
         <Footer />
       </React.Fragment>
     )
