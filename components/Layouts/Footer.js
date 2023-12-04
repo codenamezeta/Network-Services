@@ -5,8 +5,8 @@ import { FaCopyright } from 'react-icons/fa'
 class Footer extends Component {
   render() {
     return (
-      <footer className='footer-area bg-fffcf4'>
-        <div className='container'>
+      <footer className='footer-area bg-112233'>
+        <div className='container bg-112233'>
           {/* <div className='row'>
             <div className='col-lg-4 col-sm-6'>
               <div className='single-footer-widget'>
