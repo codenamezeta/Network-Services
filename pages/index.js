@@ -22,11 +22,10 @@ class Index extends Component {
         {/* <Navbar /> */}
         {/* <Banner /> */}
         <Cta />
-        {/* <Funfact /> */}
-        {/* <Partner /> */}
-
         <Process />
+        {/* <Partner /> */}
         <About />
+        {/* <Funfact /> */}
         <CloudReadiness />
         {/* <Features /> */}
         {/* <Testimonials /> */}
