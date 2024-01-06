@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import ModalVideo from 'react-modal-video'
 import { BsFillPlayFill, BsCloudFog2Fill } from 'react-icons/bs'
 import { MdOutlineCable, MdPhoneInTalk } from 'react-icons/md'
+import Image from 'next/image'
+import Logo from '../../public/images/S-Logo.png'
 
 class Cta extends Component {
   state = {
@@ -17,11 +19,12 @@ class Cta extends Component {
       <React.Fragment>
         <section
           className='cta-area jarallax pb-0'
-          data-jarallax='{"speed": 0.2}'
+          data-jarallax='{"speed": 1}'
           style={{ paddingTop: '250px' }}
         >
           <div className='container'>
             <div className='cta-content'>
+              <Image src={Logo} alt='logo' width='200' height='200' />
               <h1
                 className='image-overlay'
                 style={{ fontSize: '6em', fontWeight: '700' }}
@@ -31,7 +34,7 @@ class Cta extends Component {
               <h3 className='image-overlay'>
                 Technology Consulting Firm For Your Business
               </h3>
-
+              {/* 
               <div
                 className='popup-youtube video-btn'
                 onClick={(e) => {
@@ -40,8 +43,9 @@ class Cta extends Component {
                 }}
               >
                 <BsFillPlayFill />
-                {/* <i className='fas fa-play'></i> */}
+                
               </div>
+            */}
             </div>
 
             <div className='cta-inner-content'>

@@ -1,4 +1,8 @@
 import React, { Component } from 'react'
+import Logo from '../../public/images/S-Logo.png'
+import Image from 'next/image'
+
+// TODO: Submit form somewhere!
 
 class Contact extends Component {
   render() {
@@ -135,6 +139,7 @@ class Contact extends Component {
 
             <div className='col-lg-4 col-md-12'>
               <div className='contact-info-box'>
+                <Image src={Logo} alt='logo' width={80} height={80} />
                 <h3>Network Services</h3>
                 <ul>
                   <li>

@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
 import { FaCopyright } from 'react-icons/fa'
+import Image from 'next/image'
+import Logo from '../../public/images/S-Logo.png'
 
 class Footer extends Component {
   render() {
     return (
-      <footer className='footer-area bg-fffcf4'>
+      <footer className='footer-area'>
         <div className='container'>
           {/* <div className='row'>
             <div className='col-lg-4 col-sm-6'>
@@ -147,6 +149,7 @@ class Footer extends Component {
           <div className='container'>
             <div className='row align-items-center'>
               <div className='col-lg-7 col-md-7'>
+                <Image src={Logo} alt='logo' width='80' height='80' />
                 <p>
                   {/* <FaCopyright /> */}
                   Copyright &copy; {new Date().getFullYear()} Network Services
