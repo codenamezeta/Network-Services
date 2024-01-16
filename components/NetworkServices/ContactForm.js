@@ -70,9 +70,10 @@ const ContactForm = () => {
             <label htmlFor='phone'>Phone Number</label>
             <input
               id='phone'
-              type='text'
+              type='tel'
               name='Phone'
               className='form-control'
+              pattern='^\([0-9]{3}\)\s[0-9]{3}-[0-9]{4}$' // Adjust this pattern to match your requirements
             />
             <ValidationError
               prefix='Phone'
