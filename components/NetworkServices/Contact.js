@@ -69,7 +69,7 @@ class Contact extends Component {
 
                   <div className='col-lg-12 col-md-12'>
                     <div className='form-group'>
-                      <label>Prime Address</label>
+                      <label>Primary Address</label>
                       <input
                         type='text'
                         className='form-control'
@@ -80,7 +80,7 @@ class Contact extends Component {
 
                   <div className='col-lg-12 col-md-12'>
                     <div className='form-group'>
-                      <label>What Are Your Core Applications?</label>
+                      <label>What are your core applications?</label>
                       <textarea
                         className='form-control'
                         cols='30'
@@ -118,7 +118,7 @@ class Contact extends Component {
                   <div className='col-lg-12 col-md-12'>
                     <div className='form-group'>
                       <label>
-                        Is there an additional info you would like to provide?
+                        Is there any additional info you would like to provide?
                       </label>
                       <textarea
                         className='form-control'
