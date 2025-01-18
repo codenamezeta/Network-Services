@@ -103,9 +103,9 @@ class About extends Component {
                   </div>
                 </div>
 
-                <a href='#' className='btn btn-primary'>
+                {/* <a href='#' className='btn btn-primary'>
                   Read More
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

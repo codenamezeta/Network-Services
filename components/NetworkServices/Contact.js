@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Logo from '../../public/images/S-Logo.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 // TODO: Submit form somewhere!
 
@@ -162,7 +163,7 @@ class Contact extends Component {
                     <i className='fas fa-globe'></i>
                     <span>Website:</span>
 
-                    <a href='#'>www.networksrvs.com</a>
+                    <Link href='/'>www.networksrvs.com</Link>
                   </li>
                   <li>
                     <i className='fas fa-map-marker-alt'></i>

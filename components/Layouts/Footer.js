@@ -150,7 +150,7 @@ class Footer extends Component {
             <div className='row align-items-center'>
               <div className='col-lg-7 col-md-7'>
                 <Image src={Logo} alt='logo' width='80' height='80' />
-                <p>
+                <p className='text-white'>
                   {/* <FaCopyright /> */}
                   Copyright &copy; {new Date().getFullYear()} Network Services
                   <br /> All rights reserved.
