@@ -3,8 +3,6 @@ import Logo from '../../public/images/S-Logo.png'
 import Image from 'next/image'
 import Link from 'next/link'
 
-// TODO: Submit form somewhere!
-
 class Contact extends Component {
   render() {
     return (
@@ -21,7 +19,11 @@ class Contact extends Component {
 
           <div className='row'>
             <div className='col-lg-8 col-md-12'>
-              <form id='contactForm'>
+              <form
+                id='contactForm'
+                action='https://formspree.io/f/xovvozqg'
+                method='POST'
+              >
                 <div className='row'>
                   <div className='col-lg-6 col-md-6'>
                     <div className='form-group'>
@@ -30,6 +32,7 @@ class Contact extends Component {
                         type='text'
                         className='form-control'
                         required={true}
+                        name='Name'
                       />
                     </div>
                   </div>
@@ -41,6 +44,7 @@ class Contact extends Component {
                         type='text'
                         className='form-control'
                         required={false}
+                        name='Business'
                       />
                     </div>
                   </div>
@@ -52,6 +56,7 @@ class Contact extends Component {
                         type='email'
                         className='form-control'
                         required={true}
+                        name='Email'
                       />
                     </div>
                   </div>
@@ -63,6 +68,7 @@ class Contact extends Component {
                         type='text'
                         className='form-control'
                         required={true}
+                        name='Phone'
                       />
                     </div>
                   </div>
@@ -74,6 +80,7 @@ class Contact extends Component {
                         type='text'
                         className='form-control'
                         required={false}
+                        name='Address'
                       />
                     </div>
                   </div>
@@ -86,6 +93,7 @@ class Contact extends Component {
                         cols='30'
                         rows='4'
                         required={false}
+                        name='Core Applications'
                       />
                     </div>
                   </div>
@@ -100,6 +108,7 @@ class Contact extends Component {
                         cols='30'
                         rows='4'
                         required={false}
+                        name='Core Application Location'
                       />
                     </div>
                   </div>
@@ -112,6 +121,7 @@ class Contact extends Component {
                         cols='30'
                         rows='4'
                         required={false}
+                        name='Users Access Via'
                       />
                     </div>
                   </div>
@@ -125,6 +135,7 @@ class Contact extends Component {
                         cols='30'
                         rows='4'
                         required={false}
+                        name='Additional Info'
                       />
                     </div>
                   </div>
